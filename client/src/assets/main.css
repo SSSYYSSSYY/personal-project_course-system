@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+.account-page-nav{
+    padding: 1rem;
+    background-color: rgb(120, 154, 190);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px #aaa;
+
+}
+
+.account-page-nav .link-in-nav + .link-in-nav,.users-management-hover-list + .link-in-nav {
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid rgb(224, 252, 254);
+}
